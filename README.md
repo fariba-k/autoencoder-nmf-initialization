@@ -7,6 +7,6 @@ Autoencoders are a specific form of neural networks build by two parts. First pa
 The networks is trained in a way that the reocnstructed data is very similar to the original input. This way we can make sure that we are transferring enough information to a small encoded space so that we are enable to reconstruct the entire image from it.
 
 Bellow is a simple figure illustrating the gist of and autoencoder:
-![autoencoder architecture](https://github.com/fariba-k/autoencoder-nmf-initialization/blob/main/images/AE.png)
+![autoencoder architecture](https://github.com/fariba-k/autoencoder-nmf-initialization/blob/main/images/AE.png =250x)
 
 
