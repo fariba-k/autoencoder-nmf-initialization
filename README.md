@@ -17,5 +17,19 @@ In a deep neural network, each layer is calculated by multiplying the previous l
 <img src="https://render.githubusercontent.com/render/math?math=h^{(i)} = \sigma( W^{(i)} * h^{(i-1)} %2B b^{(i)})">
 
 
-\noindent where W is the weight matrix between $h^{(i)}$ and $h^{(i-1)}$, $\sigma$ is the activation function(for an overview of famous activation function read [this article](https://missinglink.ai/guides/neural-network-concepts/7-types-neural-network-activation-functions-right/)), and $b^{(i)}$ is the bias for $i$th hidden layer. And for the simplification let's assume $h^{(0)}$ is the input layer and $h^{(N)}$ is the output layer which is the inpur reconstruction in case of autoencoders.
+\noindent where 
+W is the weight matrix between 
+<img src="https://render.githubusercontent.com/render/math?math=h^{(i)}">
+and 
+<img src="https://render.githubusercontent.com/render/math?math=h^{(i-1)}">, 
+<img src="https://render.githubusercontent.com/render/math?math=\sigma">
+is the activation function(for an overview of famous activation function read [this article](https://missinglink.ai/guides/neural-network-concepts/7-types-neural-network-activation-functions-right/)), and 
+<img src="https://render.githubusercontent.com/render/math?math=b^{(i)}"> 
+is the bias for 
+<img src="https://render.githubusercontent.com/render/math?math=i">th 
+hidden layer. And for the simplification let's assume 
+<img src="https://render.githubusercontent.com/render/math?math=h^{(0)}"> 
+is the input layer and 
+<img src="https://render.githubusercontent.com/render/math?math=h^{(N)}"> 
+is the output layer which is the inpur reconstruction in case of autoencoders.
 
