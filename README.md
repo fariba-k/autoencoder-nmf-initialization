@@ -104,3 +104,6 @@ Training Samples = 60000   |![](https://github.com/fariba-k/autoencoder-nmf-init
 Training Samples = 3000    |![](https://github.com/fariba-k/autoencoder-nmf-initialization/blob/main/images/mnist_fashion_reconstruction_3000_10.png) |  ![](https://github.com/fariba-k/autoencoder-nmf-initialization/blob/main/images/mnist_fashion_reconstruction_3000_50.png)
 Training Samples = 60000   |![](https://github.com/fariba-k/autoencoder-nmf-initialization/blob/main/images/mnist_fashion_reconstruction_all_10.png) |  ![](https://github.com/fariba-k/autoencoder-nmf-initialization/blob/main/images/mnist_fashion_reconstruction_all_50.png)
 
+
+# Conclusion
+As you can see in the previous section, while there is no significant difference between different initialization methods if you use a large amount of training samples or more epochs, it is obvious that NNMF initialization technique gets to a better reconstructed image after fewer epochs even with much lower number of samples.
