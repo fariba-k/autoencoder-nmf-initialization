@@ -29,7 +29,12 @@ is the bias for
 <img src="https://render.githubusercontent.com/render/math?math=i">th 
 hidden layer. And for the simplification let's assume 
 <img src="https://render.githubusercontent.com/render/math?math=h^{(0)}"> 
+
+Now, let's write this down for an entire autoencoder with N layers:
+
+
 is the input layer and 
 <img src="https://render.githubusercontent.com/render/math?math=h^{(N)}"> 
 is the output layer which is the inpur reconstruction in case of autoencoders.
 
+<img src="https://render.githubusercontent.com/render/math?math=h^{(N)} = \sigma( W^{(i)} * \sigma( W^{(i-1)} * ...\sigma( W^{(1)} * h^{(0)} %2B b^{(1)})...} %2B b^{(i-1)}) %2B b^{(i)})">
