@@ -56,5 +56,22 @@ where
 <img src="https://render.githubusercontent.com/render/math?math=B">
 is the gerneral bias term that can be calculated from the previous equations.
 
-Remember that it was mentioned before, the network is trained to produce a very similar data to the input. There for we can consider the identity matrix with the same dimention as the input to be the perfect choice for 
-<img src="https://render.githubusercontent.com/render/math?math=W">.
+Remember that it was mentioned before, the network is trained to produce a very similar data to the input. There for we can consider the identity matrix 
+<img src="https://render.githubusercontent.com/render/math?math=I">
+with the same dimention as the input to be the perfect choice for 
+<img src="https://render.githubusercontent.com/render/math?math=W"> and if we can find all the individual weight matrices in a way that their multiplication is close to 
+<img src="https://render.githubusercontent.com/render/math?math=I"> we can use them as initial weights of our network, and of course use a better activation function.
+
+We can do this, by using [Non Negative Matrix Factorization](https://en.wikipedia.org/wiki/Non-negative_matrix_factorization) to factorize the identity matrix into as many matrices as we desire with arbitrary dimensions.
+
+One might say, this is a learning process by itself and can be computationaly expensive. However, for a certain network architecture we only need to calculate these initial matrices one and reuse it for any type of data. Moreover, this good initialization will later help the neural network to reach its goal in much fewer epochs and even with less data.
+
+# Experiments
+I compared the proposed weight initialization with 5 other [famous approaches that are used in keras ](https://keras.io/api/layers/initializers/) including Random Normal, Glorot Normal, He Normal, VarianceScaling, and Orthogonal. 
+
+* Data: MNIST digit and MNIST fasion data.
+* Number of epochs: 10 vs 50
+* Number of training samples: 3000 vs 60000
+
+Which led to 8 total result sets to compare the 6 initialization approaches. In order to compare the performance of each method, I used loss drop graph during each epoch and the reconstructed input compared with the original input:
+
