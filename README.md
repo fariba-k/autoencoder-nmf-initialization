@@ -8,5 +8,5 @@ The networks is trained in a way that the reocnstructed data is very similar to 
 
 Bellow is a simple figure illustrating the gist of and autoencoder:
 
-<a href="url"><img src="https://github.com/fariba-k/autoencoder-nmf-initialization/blob/main/images/AE.png" align="center" alt="autoencoder architecture" width="600"></a>
+<a href="url"><img src="https://github.com/fariba-k/autoencoder-nmf-initialization/blob/main/images/AE.png" align="middle" alt="autoencoder architecture" width="600"></a>
 
