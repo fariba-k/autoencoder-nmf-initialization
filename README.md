@@ -10,3 +10,13 @@ Bellow is a simple figure illustrating the gist of and autoencoder:
 
 <a href="url"><img src="https://github.com/fariba-k/autoencoder-nmf-initialization/blob/main/images/AE.png" align="middle" alt="autoencoder architecture" width="600"></a>
 
+# Proposed Methodology
+In a deep neural network, each layer is calculated by multiplying the previous layer by the weight matrix and then adding a bias term and finally passing all the values through an activation function:
+
+\begin{equation}
+h^{(i)} = \sigma( W^{(i)} * h^{(i-1)} + b^{(i)})
+\label{eq1}
+\end{equation}
+
+\noindent where W is the weight matrix between $h^{(i)}$ and $h^{(i-1)}$, $\sigma$ is the activation function(for an overview of famous activation function read [this article](https://missinglink.ai/guides/neural-network-concepts/7-types-neural-network-activation-functions-right/)), and $b^{(i)}$ is the bias for $i$th hidden layer. And for the simplification let's assume $h^{(0)}$ is the input layer and $h^{(N)}$ is the output layer which is the inpur reconstruction in case of autoencoders.
+
