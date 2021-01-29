@@ -75,3 +75,32 @@ I compared the proposed weight initialization with 5 other [famous approaches th
 
 Which led to 8 total result sets to compare the 6 initialization approaches. In order to compare the performance of each method, I used loss drop graph during each epoch and the reconstructed input compared with the original input:
 
+
+## MNIST digit Data
+### Loss drop comparison
+|                          | Epochs = 10              |  Epochs = 50 |
+:-------------------------:|:------------------------:|:-------------------------:
+Training Samples = 3000    |![]()                     |  ![]()
+Training Samples = 60000   |![]()                     |  ![]()
+
+
+### Reconstruction comparison
+|                          | Epochs = 10              |  Epochs = 50 |
+:-------------------------:|:------------------------:|:-------------------------:
+Training Samples = 3000    |![]()                     |  ![]()
+Training Samples = 60000   |![]()                     |  ![]()
+
+
+## MNIST fashion Data
+### Loss drop
+|                          | Epochs = 10              |  Epochs = 50 |
+:-------------------------:|:------------------------:|:-------------------------:
+Training Samples = 3000    |![]()                     |  ![]()
+Training Samples = 60000   |![]()                     |  ![]()
+
+### Reconstruction comparison
+|                          | Epochs = 10              |  Epochs = 50 |
+:-------------------------:|:------------------------:|:-------------------------:
+Training Samples = 3000    |![]()                     |  ![]()
+Training Samples = 60000   |![]()                     |  ![]()
+
