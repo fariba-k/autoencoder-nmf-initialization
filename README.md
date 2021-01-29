@@ -1,5 +1,6 @@
 # autoencoder-nmf-initialization
-This is a project about using non-negative matrix factorization for weight initialization in autoencoders.
+This is a project about using non-negative matrix factorization for weight initialization in autoencoders. 
+
 
 # Background
 Autoencoders are a specific form of neural networks build by two parts. First part is used to encode the input data to a space with lower dimension and the second part decodes the abstracted data to reconstruct the input.
@@ -13,10 +14,8 @@ Bellow is a simple figure illustrating the gist of and autoencoder:
 # Proposed Methodology
 In a deep neural network, each layer is calculated by multiplying the previous layer by the weight matrix and then adding a bias term and finally passing all the values through an activation function:
 
-\begin{equation}
-h^{(i)} = \sigma( W^{(i)} * h^{(i-1)} + b^{(i)})
-\label{eq1}
-\end{equation}
+<img src="https://render.githubusercontent.com/render/math?math=h^{(i)} = \sigma( W^{(i)} * h^{(i-1)} %2B b^{(i)})">
+
 
 \noindent where W is the weight matrix between $h^{(i)}$ and $h^{(i-1)}$, $\sigma$ is the activation function(for an overview of famous activation function read [this article](https://missinglink.ai/guides/neural-network-concepts/7-types-neural-network-activation-functions-right/)), and $b^{(i)}$ is the bias for $i$th hidden layer. And for the simplification let's assume $h^{(0)}$ is the input layer and $h^{(N)}$ is the output layer which is the inpur reconstruction in case of autoencoders.
 
