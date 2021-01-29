@@ -80,27 +80,27 @@ Which led to 8 total result sets to compare the 6 initialization approaches. In 
 ### Loss drop comparison
 |                          | Epochs = 10              |  Epochs = 50 |
 :-------------------------:|:------------------------:|:-------------------------:
-Training Samples = 3000    |![]()                     |  ![]()
-Training Samples = 60000   |![]()                     |  ![]()
+Training Samples = 3000    |![](https://github.com/fariba-k/autoencoder-nmf-initialization/blob/main/images/mnist_digit_loss_3000_10.png) |  ![](https://github.com/fariba-k/autoencoder-nmf-initialization/blob/main/images/mnist_digit_loss_3000_50.png)
+Training Samples = 60000   |![](https://github.com/fariba-k/autoencoder-nmf-initialization/blob/main/images/mnist_digit_loss_all_10.png) |  ![](https://github.com/fariba-k/autoencoder-nmf-initialization/blob/main/images/mnist_digit_loss_all_50.png)
 
 
 ### Reconstruction comparison
 |                          | Epochs = 10              |  Epochs = 50 |
 :-------------------------:|:------------------------:|:-------------------------:
-Training Samples = 3000    |![]()                     |  ![]()
-Training Samples = 60000   |![]()                     |  ![]()
+Training Samples = 3000    |![](https://github.com/fariba-k/autoencoder-nmf-initialization/blob/main/images/mnist_digit_reconstruction_3000_10.png) |  ![](https://github.com/fariba-k/autoencoder-nmf-initialization/blob/main/images/mnist_digit_reconstruction_3000_50.png)
+Training Samples = 60000   |![](https://github.com/fariba-k/autoencoder-nmf-initialization/blob/main/images/mnist_digit_reconstruction_all_10.png) |  ![](https://github.com/fariba-k/autoencoder-nmf-initialization/blob/main/images/mnist_digit_reconstruction_all_50.png)
 
 
 ## MNIST fashion Data
 ### Loss drop
 |                          | Epochs = 10              |  Epochs = 50 |
 :-------------------------:|:------------------------:|:-------------------------:
-Training Samples = 3000    |![]()                     |  ![]()
-Training Samples = 60000   |![]()                     |  ![]()
+Training Samples = 3000    |![](https://github.com/fariba-k/autoencoder-nmf-initialization/blob/main/images/mnist_fashion_loss_3000_10.png) |  ![](https://github.com/fariba-k/autoencoder-nmf-initialization/blob/main/images/mnist_fashion_loss_3000_50.png)
+Training Samples = 60000   |![](https://github.com/fariba-k/autoencoder-nmf-initialization/blob/main/images/mnist_fashion_loss_all_10.png) |  ![](https://github.com/fariba-k/autoencoder-nmf-initialization/blob/main/images/mnist_fashion_loss_all_50.png)
 
 ### Reconstruction comparison
 |                          | Epochs = 10              |  Epochs = 50 |
 :-------------------------:|:------------------------:|:-------------------------:
-Training Samples = 3000    |![]()                     |  ![]()
-Training Samples = 60000   |![]()                     |  ![]()
+Training Samples = 3000    |![](https://github.com/fariba-k/autoencoder-nmf-initialization/blob/main/images/mnist_fashion_reconstruction_3000_10.png) |  ![](https://github.com/fariba-k/autoencoder-nmf-initialization/blob/main/images/mnist_fashion_reconstruction_3000_50.png)
+Training Samples = 60000   |![](https://github.com/fariba-k/autoencoder-nmf-initialization/blob/main/images/mnist_fashion_reconstruction_all_10.png) |  ![](https://github.com/fariba-k/autoencoder-nmf-initialization/blob/main/images/mnist_fashion_reconstruction_all_50.png)
 
