@@ -37,4 +37,4 @@ is the input layer and
 <img src="https://render.githubusercontent.com/render/math?math=h^{(N)}"> 
 is the output layer which is the inpur reconstruction in case of autoencoders.
 
-<img src="https://render.githubusercontent.com/render/math?math=h^{(N)} = \sigma( W^{(i)} * \sigma( W^{(i-1)} * ...\sigma( W^{(1)} * h^{(0)} %2B b^{(1)})...} %2B b^{(i-1)}) %2B b^{(i)})">
+<img src="https://render.githubusercontent.com/render/math?math=h^{(N)} = \sigma( W^{(i)} * (\sigma( W^{(i-1)} * (...\sigma( W^{(1)} * h^{(0)} %2B b^{(1)})...) %2B b^{(i-1)}) %2B b^{(i)})">
