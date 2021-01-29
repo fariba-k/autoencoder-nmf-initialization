@@ -45,4 +45,4 @@ And for the whole network:
 
 <img src="https://render.githubusercontent.com/render/math?math=h^{(N)} = \sigma( W^{(i)} * (\sigma( W^{(i-1)} * (...\sigma( W^{(1)} * h^{(0)} %2B b^{(1)})...) %2B b^{(i-1)}) %2B b^{(i)}) =  W^{(i)} * ( W^{(i-1)} * (...( W^{(1)} * h^{(0)} %2B b^{(1)})..) %2B b^{(i-1)}) 2B b^{(i)}">
 
-\t <img src="https://render.githubusercontent.com/render/math?math= =  W^{(i)} * ( W^{(i-1)} * (...( W^{(1)} * h^{(0)} %2B b^{(1)})..) %2B b^{(i-1)}) 2B b^{(i)}">
+\t <img src="https://render.githubusercontent.com/render/math?math=%&#61;W^{(i)} * ( W^{(i-1)} * (...( W^{(1)} * h^{(0)} %2B b^{(1)})..) %2B b^{(i-1)}) 2B b^{(i)}">
