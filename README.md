@@ -47,10 +47,14 @@ And for the whole network:
 
 Let's simplify things. We can rewrite the above formula in a much simpler form:
 
-<img src="https://render.githubusercontent.com/render/math?math=h^{(N)} = (W^{(i)} * W^{(i-1)} * ... W^{(1)}) * h^{(0)} %2B B = T * h^{(0)} %2B B">
+<img src="https://render.githubusercontent.com/render/math?math=h^{(N)} = (W^{(i)} * W^{(i-1)} * ... W^{(1)}) * h^{(0)} %2B B ">
+
+<img src="https://render.githubusercontent.com/render/math?math=h^{(N)} = W * h^{(0)} %2B B">
 
 where 
-<img src="https://render.githubusercontent.com/render/math?math=T"> is the mutlplication of all weight matrices that transforms the input to its reconstruction (note that this only holds if we have a linear activation function) and 
+<img src="https://render.githubusercontent.com/render/math?math=W"> is the mutlplication of all weight matrices that transforms the input to its reconstruction (note that this only holds if we have a linear activation function) and 
 <img src="https://render.githubusercontent.com/render/math?math=B">
 is the gerneral bias term that can be calculated from the previous equations.
 
+Remember that it was mentioned before, the network is trained to produce a very similar data to the input. There for we can consider the identity matrix with the same dimention as the input to be the perfect choice for 
+<img src="https://render.githubusercontent.com/render/math?math=W">.
