@@ -78,7 +78,7 @@ Which led to 8 total result sets to compare the 6 initialization approaches. In 
 
 ## MNIST digit Data
 ### Loss drop comparison
-<a href="url"><img src="https://github.com/fariba-k/autoencoder-nmf-initialization/blob/main/images/loss_drop_legend.png" align="middle" alt="autoencoder architecture" width="100"></a>
+<a href="url"><img src="https://github.com/fariba-k/autoencoder-nmf-initialization/blob/main/images/loss_drop_legend.png" align="middle" alt="autoencoder architecture" width="200"></a>
 |                          | Epochs = 10              |  Epochs = 50 |
 :-------------------------:|:------------------------:|:-------------------------:
 Training Samples = 3000    |![](https://github.com/fariba-k/autoencoder-nmf-initialization/blob/main/images/mnist_digit_loss_3000_10.png) |  ![](https://github.com/fariba-k/autoencoder-nmf-initialization/blob/main/images/mnist_digit_loss_3000_50.png)
@@ -94,7 +94,7 @@ Training Samples = 60000   |![](https://github.com/fariba-k/autoencoder-nmf-init
 
 ## MNIST fashion Data
 ### Loss drop
-<a href="url"><img src="https://github.com/fariba-k/autoencoder-nmf-initialization/blob/main/images/loss_drop_legend.png" align="middle" alt="autoencoder architecture" width="100"></a>
+<a href="url"><img src="https://github.com/fariba-k/autoencoder-nmf-initialization/blob/main/images/loss_drop_legend.png" align="middle" alt="autoencoder architecture" width="200"></a>
 |                          | Epochs = 10              |  Epochs = 50 |
 :-------------------------:|:------------------------:|:-------------------------:
 Training Samples = 3000    |![](https://github.com/fariba-k/autoencoder-nmf-initialization/blob/main/images/mnist_fashion_loss_3000_10.png) |  ![](https://github.com/fariba-k/autoencoder-nmf-initialization/blob/main/images/mnist_fashion_loss_3000_50.png)
