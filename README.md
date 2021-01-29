@@ -44,3 +44,13 @@ Further, let's consider linear activation function which maps each value to itse
 And for the whole network:
 
 <img src="https://render.githubusercontent.com/render/math?math=h^{(N)} = \sigma( W^{(i)} * (\sigma( W^{(i-1)} * (...\sigma( W^{(1)} * h^{(0)} %2B b^{(1)})...) %2B b^{(i-1)}) %2B b^{(i)}) = W^{(i)} * ( W^{(i-1)} * (...( W^{(1)} * h^{(0)} %2B b^{(1)})..) %2B b^{(i-1)}) %2B b^{(i)}">
+
+Let's simplify things. We can rewrite the above formula in a much simpler form:
+
+<img src="https://render.githubusercontent.com/render/math?math=h^{(N)} = (W^{(i)} * W^{(i-1)} * ... W^{(1)}) * h^{(0)} %2B B = T * h^{(0)} %2B B">
+
+where 
+<img src="https://render.githubusercontent.com/render/math?math=T"> is the mutlplication of all weight matrices that transforms the input to its reconstruction (note that this only holds if we have a linear activation function) and 
+<img src="https://render.githubusercontent.com/render/math?math=B">
+is the gerneral bias term that can be calculated from the previous equations.
+
