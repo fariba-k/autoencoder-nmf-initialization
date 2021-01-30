@@ -64,7 +64,7 @@ with the same dimention as the input to be the perfect choice for
 
 We can do this, by using [Non Negative Matrix Factorization](https://en.wikipedia.org/wiki/Non-negative_matrix_factorization) to factorize the identity matrix into as many matrices as we desire with arbitrary dimensions.
 
-One might say, this is a learning process by itself and can be computationaly expensive. However, for a certain network architecture we only need to calculate these initial matrices one and reuse it for any type of data. Moreover, this good initialization will later help the neural network to reach its goal in much fewer epochs and even with less data.
+One might say, this is a learning process by itself and can be computationaly expensive. However, for a certain network architecture we only need to calculate these initial matrices once and reuse it for any type of data. Moreover, this good initialization will later help the neural network to reach its goal in much fewer epochs and even with much less data.
 
 # Experiments
 I compared the proposed weight initialization with 5 other [famous approaches that are used in keras ](https://keras.io/api/layers/initializers/) including Random Normal, Glorot Normal, He Normal, VarianceScaling, and Orthogonal. 
